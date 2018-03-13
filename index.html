@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+ <title>Srishti’s App</title>
+
+ <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
+ <script defer src="fontawesome-all.js" charset="utf-8"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" charset="utf-8">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js" charset="utf-8"></script>
+ <!-- <link rel="stylesheet" href="/styles/style.css"> -->
+ <script src="app.js"></script>
+
+</head>
+<body>
+ <header class="teal lighten-3">
+     <h1 class="center-align">Pokemons</h1>
+ </header>
+ <div class= "row">
+   <div class="col s4 offset-s1 teal lighten-5" id='target'>
+     <h3 class='card-panel'>Pokemons</h3>
+   </div>
+   <div class="col s3 offset-s1">
+       <form id="newPokemonForm">
+         <div>
+           <label for="pokemon">Pokemon</label>
+           <input type="text" class="form-control" name="pokemon" placeholder="pokemon">
+         </div>
+         <div>
+           <label for="pokedex">Pokedex</label>
+           <input type="text" class="form-control" name="pokedex" placeholder="Pokedex">
+         </div>
+         <div>
+           <label for="evolves_from">Evolves from</label>
+           <input type="text" class="form-control" name="evolves_from" placeholder="Evolves from">
+         </div>
+         <div>
+           <label for="image">Image URL</label>
+           <input type="text" class="form-control" name="image" placeholder="Image url">
+         </div>
+         <button type="submit" class="btn grey lighten-1">Create new Pokemon</button>
+       </form>
+     </div>
+   </div>
+ </div>
+</body>
+</html>
